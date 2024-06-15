@@ -1,0 +1,89 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #A2CDCD;
+    padding: 1em;
+}
+
+.navbar img {
+    height: 50px;
+    margin-right: 1em;
+}
+
+.navbar a {
+    color: #000000;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin-right: 1em;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #E0FFFF;
+}
+
+.section {
+    padding: 2em;
+    text-align: center;
+}
+
+#sobre, #fotos, #contatos {
+    background-color: #E0FFFF;
+}
+
+.fotos img {
+    max-width: 70%;
+    height: auto;
+    margin: 1em 0;
+    border-radius: 8px;
+}
+
+.section h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.section p {
+    font-size: 1.7em;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.contactos {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 1em; 
+    list-style-type: none;
+    padding: 0; 
+    margin: 0 auto;
+}
+
+.contactos li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactos img {
+    width: 50px;
+    height: 50px;
+}
+
+.rodape {
+    background-color: #E0FFFF;
+    text-align: center;
+}
+.rodape img{
+    width: 30%;
+    height: auto;
+}
